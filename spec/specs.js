@@ -5,4 +5,10 @@ describe('countUpTo', function() {
   it('count up by units equal to the step', function() {
     expect(countUpTo(10, 2)).to.equal("1,3,5,7,9")
   });
+  it('count up by units equal to the step', function() {
+    expect(countUpTo(25, 5)).to.equal("1,6,11,16,21")
+  });
+  it('count up by units equal to the step', function() {
+    expect(countUpTo(4, 0.5)).to.equal("1,1.5,2,2.5,3,3.5,4")
+  });
 });
